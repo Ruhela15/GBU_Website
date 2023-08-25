@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gbu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <div class=" sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg"></a>
+            <div class="navlinks" id="navlinks">
+                <i class="fa-solid fa-bars" onclick="hidemenu()"></i>
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+        <h1>Contact Us</h1>
+    </div>
+    <!--contact us-->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.944632239572!2d77.52416417512454!3d28.42092749365915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc0f918abee8d%3A0x8c72169fdd7154b0!2sGautam%20Buddha%20University!5e0!3m2!1sen!2sin!4v1692898560637!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>kasna,Greater Noida</h5>
+                        <p> Uttarpradesh,Gautam Budh Nagar (201312)</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>0120-2344200</h5>
+                        <p>Monday To Saturday , 10AM to 5PM </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                       <h5>Website:- www.gbu.ac.in</h5>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="enter your name" required>
+                    <input type="email" placeholder="enter your email" required>
+                    <input type="text" placeholder="enter your subject" required>
+                    <textarea rows="8" placeholder="message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn" >send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+<!--foooter-->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, nam porro? Voluptas dignissimos voluptatibus similique error<br> voluptate temporibus veritatis repellendus mollitia. Officiis ut qui dolor.</p>
+    <div class="icons">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made By Priyanshu Ruhela</p>
+</section>
+
+
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right="0"
+        }
+        function hidemenu(){
+        navlinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>

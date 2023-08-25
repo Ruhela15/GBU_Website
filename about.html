@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gbu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <div class=" sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg"></a>
+            <div class="navlinks" id="navlinks">
+                <i class="fa-solid fa-bars" onclick="hidemenu()"></i>
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+        <h1>ABOUT US</h1>
+    </div>
+    <!--about us -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+<h1>GAUTAM BUDDHA UNIVERSITY</h1>
+<p> Gautam Buddha University was set up in 2008 and was funded by the New Okhla Industrial Development Authority and Greater Noida Industrial Development Authority. The university campus is spread over an area of 511 acres and is recognized by UGC. A globally acclaimed combined academic and research institution that produces a lively community of scholars and entrepreneurs provided with Character, Creativity, Competence, and Commitment, who can spark meaningful transformations to assure holistic growth and development of the society.
+    
+    Students of GBU Noida are refined carefully. Discipline and ethical practices in the profession are absorbed by them regularly during their stay on campus. Campus life accentuates the quality of extra academic activities apart from their academic learning, influencing them to many new avenues. Gautam Budha University admissions offer courses in various fields of Engineering, Humanities and Social Sciences, Law and other disciplines for students.</p>
+            <a href="" class="hero-btn red-btn" >EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                   <img src="logo.jpg">
+            </div>
+        </div>
+    </section>
+<!--foooter-->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, nam porro? Voluptas dignissimos voluptatibus similique error<br> voluptate temporibus veritatis repellendus mollitia. Officiis ut qui dolor.</p>
+    <div class="icons">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made By Priyanshu Ruhela</p>
+</section>
+
+
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right="0"
+        }
+        function hidemenu(){
+        navlinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
